@@ -1,5 +1,5 @@
 money = input("How much to invest : ")
-interest_rate =  input("Interest rate : ")
+interest_rate =  ("Interest rate : ")
 
 money = float(money)
 
