@@ -1,8 +1,6 @@
-t as it is
-    if char.isalpha():
-        #Get thecharacter code and add the shift amount
-        char_code = ord(char)
-        char_code += key
+def solve_eq(equation):
+    x, add, num1, equal, num2 = equation.split()
 
-        #if uppercase then compare to upper caseunicosdes
-        if char.isupper
+    num1, num2 = int(num1), int(num2)
+
+    return "x ="+ str(num2 - num1)
