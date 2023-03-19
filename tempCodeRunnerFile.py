@@ -1,6 +1,12 @@
-def solve_eq(equation):
-    x, add, num1, equal, num2 = equation.split()
+def uppercase(s):
+    for c in s:
+        # Convert lowercase letters to uppercase
+        if ord('a') <= ord(c) <= ord('z'):
+            c = chr(ord(c) - ord('a') + ord('A'))
+        # Print the character without a newline
+        print(c, end='')
+    # Print a newline at the end of the string
+    print()
 
-    num1, num2 = int(num1), int(num2)
-
-    return "x ="+ str(num2 - num1)
+str = input("Enter text :")
+uppercase(str)
