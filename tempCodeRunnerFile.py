@@ -1,2 +1,1 @@
-for i in timiDict:
-    print(i)
+os.mkdir("mydir")
