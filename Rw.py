@@ -17,7 +17,6 @@ os.rename("mydata.txt", "mydata6.txt")
 
 os.remove("mydata6.txt")
 
-# os.mkdir("mydir")
 
 os.chdir("mydir")
 
