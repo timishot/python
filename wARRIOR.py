@@ -53,7 +53,7 @@ def main():
     maximus = Warrior("maxinum", 50, 20, 10)
     galaxon = Warrior("Galaxon", 50, 20, 10)
 
-    battle = Battle()
+    battle = Battle(
 
     battle.startFight(maximus, galaxon)
 
