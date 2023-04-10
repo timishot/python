@@ -62,7 +62,7 @@ main()
 
 #Attack randoms() 0.0 to 1.0 * maxattack + .5
 
-Block will use random()
+#Block will use random()
 
 #Bottle class capability of looping until 1 warrior dies
 #warriors will each get a turn to attack each other

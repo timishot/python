@@ -10,7 +10,7 @@ class Square:
     def height(self, value):
         if value.isdigit():
             self.__height = value
-        else:
+        else
             print("Please only enter numbers for height")
 
     @property
